@@ -166,6 +166,7 @@ export default function Register({ navigation }) {
                             placeholder="Masukan kata sandi"
                             label="Kata Sandi"
                             iconname="lock-closed"
+                            secureTextEntry
                             value={data.password}
                             onChangeText={value =>
                                 setData({
